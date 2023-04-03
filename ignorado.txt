@@ -1,0 +1,24 @@
+*Que se usa:
+	* se usa para encontrar coincidencias
+	/ se usa para ignorar nombres de ruta relacionados con el archivo .gitignore
+	# se usa para añadir comentarios al archivo .gitignore
+
+*Ejemplo:
+	# Ignorar archivos del sistema de Mac
+		.DS_store
+
+	# Ignorar carpeta node_modules
+		node_modules
+
+	# Ignorar todos los archivos de texto
+		*.txt
+
+	# Ignorar archivos relacionados con claves de una API
+		.env
+
+	# Ignorar archivos de configuración SASS
+		.sass-cache
+
+*Para añadir un .gitignore de forma global:
+
+	git config --global core.excludesfile ~/.gitignore_global
